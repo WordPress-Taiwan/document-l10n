@@ -4,6 +4,11 @@
 ## 參與之前
 開始參與任何本地化專案以前，請先詳閱〈[台灣正體中文資訊本地化譯文樣式指南](https://tw.wordpress.org/team/handbook/localization/zh-tw-localization-style-guide/)〉及〈[對於本地化譯者的基本期許](https://tw.wordpress.org/team/handbook/localization/expectations/)〉兩篇文章，確保你了解 WordPress 台灣本地化專案的基本標準。
 
+## 本專案的維護方式
+* 本專案統一使用 Markdown 格式的文件 (`.md`)
+* 檔案名稱為用於《[Chinese (Taiwan) Team 正體中文團隊](https://tw.wordpress.org/team/handbook/)》中的代稱 (slug)，並將 `/` 改為 `_`，例如：`localization_expectations.md`。
+* 所有文件第一段為原文連結，例如：「本文譯自〈[General Expectations for Translators](https://make.wordpress.org/polyglots/handbook/translating/expectations/)〉。」
+
 ## 如何參與
 以下提供幾個可以參與本專案的方式。
 
