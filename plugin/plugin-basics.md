@@ -1,4 +1,6 @@
+`` Block:InfoCallout
 本文譯自〈[Plugin Basics](https://developer.wordpress.org/plugins/plugin-basics/)〉
+``
 
 入門
 --
@@ -15,11 +17,13 @@
 
 該過程在 Unix 命令列上，如下所示：
 
+```Shell
     wordpress $ cd wp-content
     wp-content $ cd plugins
     plugins $ mkdir plugin-name
     plugins $ cd plugin-name
     plugin-name $ vi plugin-name.php
+```
 
 在上面的範例中，vi 是文字編輯器的名稱。使用你覺得適合的編輯器。
 

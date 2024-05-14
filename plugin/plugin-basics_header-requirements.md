@@ -1,4 +1,6 @@
+``` Block:InfoCallout
 本文譯自〈[Header Requirements](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/)〉
+```
 
 如[入門](https://tw.wordpress.org/team/?post_type=handbook&p=532#getting-started)一章所述，主 PHP 檔案應包含標頭註解，告訴 WordPress 這個檔案是一個外掛程式，並提供有關該外掛程式的資訊。
 
@@ -7,9 +9,11 @@
 
 最低要求，標頭註解需要包含一個外掛名稱：
 
-/\*
+```PHP
+/*
  \* Plugin Name: YOUR PLUGIN NAME
  */
+```
 
 標頭欄位
 ----
@@ -34,13 +38,19 @@
 
 一個合法的標題註解 PHP 檔案可能如下所示：
 
+``` PHP
 /\* \* Plugin Name:       My Basics Plugin * Plugin URI:        https://example.com/plugins/the-basics/ * Description:       Handle the basics with this plugin. * Version:           1.10.3 * Requires at least: 5.2 * Requires PHP:      7.2 * Author:            John Smith * Author URI:        https://author.example.com/ * License:           GPL v2 or later * License URI:       https://www.gnu.org/licenses/gpl-2.0.html * Update URI:        https://example.com/my-plugin/ * Text Domain:       my-basics-plugin * Domain Path:       /languages * Requires Plugins:  my-plugin, yet-another-plugin */
+```
 
 這是另一個使用檔案階層 PHPDoc DocBlock 以及 WordPress 外掛程式標頭的範例：
 
+``` PHP
 /\*\* \* Plugin Name * * @package           PluginPackage * @author            Your Name * @copyright         2019 Your Name or Company Name * @license           GPL-2.0-or-later * * @wordpress-plugin * Plugin Name:       Plugin Name * Plugin URI:        https://example.com/plugin-name * Description:       Description of the plugin. * Version:           1.0.0 * Requires at least: 5.2 * Requires PHP:      7.2 * Author:            Your Name * Author URI:        https://example.com * Text Domain:       plugin-slug * License:           GPL v2 or later * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt * Update URI:        https://example.com/my-plugin/ * Requires Plugins:  my-plugin, yet-another-plugin */
+```
 
+``` Block:InfoCallout
 筆記
 --
 
 專案指派版本號碼的時候，請記住 WordPress 使用 PHP 的 version_compare() 函式來比較外掛程式版本號。因此，在發布新版本的外掛程式之前，你應該確保該 PHP 函式認為新版本比舊版本「更大」。例如：1.02 實際上大於 1.1 。
+```

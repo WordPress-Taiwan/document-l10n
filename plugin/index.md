@@ -1,4 +1,6 @@
+```Block:InfoCallout
 本文譯自〈[Plugin Handbook](https://developer.wordpress.org/plugins/)〉
+```
 
 _歡迎來到 WordPress 外掛開發者手冊，你準備好進入 WordPress 的外掛世界了嗎？_
 

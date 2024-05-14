@@ -1,4 +1,6 @@
+```Block:InfoCallout
 本文譯自〈[What is a Plugin?](https://developer.wordpress.org/plugins/intro/what-is-a-plugin/)〉
+```
 
 外掛程式是擴展 WordPress 核心功能的程式碼包。 WordPress 外掛程式由 PHP 程式碼組成，可以包含其他資源，例如圖片、CSS 和 JavaScript。
 
