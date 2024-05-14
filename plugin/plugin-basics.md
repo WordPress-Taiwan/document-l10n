@@ -1,6 +1,6 @@
-`` Block:InfoCallout
+``` Block:InfoCallout
 本文譯自〈[Plugin Basics](https://developer.wordpress.org/plugins/plugin-basics/)〉
-``
+```
 
 入門
 --

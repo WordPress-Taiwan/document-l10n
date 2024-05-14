@@ -8,7 +8,7 @@
 * 在停用勾點，外掛可以執行刪除臨時資料，例如快取和臨時檔案和目錄。
 
 ```Block:InfoCallout
-停用勾點有時會與[移除勾點](http://uninstall%20hook) (uninstall hook) 混淆。移除掛鉤適合永久刪除所有資料，例如刪除外掛選項或是自訂資料表......等。
+停用勾點有時會與[移除勾點](https://developer.wordpress.org/plugins/plugin-basics/uninstall-methods/) (uninstall hook) 混淆。移除掛鉤適合永久刪除所有資料，例如刪除外掛選項或是自訂資料表......等。
 ```
 
 啟用勾點
