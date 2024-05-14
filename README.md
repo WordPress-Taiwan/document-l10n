@@ -19,7 +19,9 @@
 
 #### 非 Markdown 語法的區塊
 《[Chinese (Taiwan) Team 正體中文團隊](https://tw.wordpress.org/team/)》中，有 5 種圖說文字 (Callout) 區塊可供使用，請使用程式碼的方式進行標註：
-```
+![Callout](./assets/callout-blocks.png)
+
+```markdown
 ```Block:InfoCallout
 這是要放在 InfoCallout 裡的內容
 ```
