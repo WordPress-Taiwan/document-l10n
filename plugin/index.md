@@ -2,20 +2,20 @@
 本文譯自〈[Plugin Handbook](https://developer.wordpress.org/plugins/)〉
 ```
 
-_歡迎來到 WordPress 外掛開發者手冊，你準備好進入 WordPress 的外掛世界了嗎？_
+歡迎來到《WordPress 外掛開發人員手冊》，你準備好進入 WordPress 的外掛世界了嗎？
 
-外掛開發者手冊是有關 WordPress 外掛程式的所有資源。無論你是 WordPress 外掛程式開發新手，還是經驗豐富的外掛開發人員，你都應該能夠在這裡找到許多與外掛開發相關問題的答案。
+本手冊涵蓋 WordPress 外掛的所有資源。無論你是 WordPress 外掛程式開發新手，還是經驗豐富的外掛開發人員，都能夠在這裡找到許多與外掛開發相關問題的答案。
 
-* 如果你是外掛程式開發新手，請先閱讀[簡介](https://developer.wordpress.org/plugin/intro/)，然後繼續了解[基礎知識](https://developer.wordpress.org/plugins/plugin-basics/)。
-* [外掛程式安全性](https://developer.wordpress.org/plugin/security/)中的內容，將介紹資訊安全相關內容的最佳實務。
-* [勾點](https://developer.wordpress.org/plugin/hooks/)是讓你的外掛程式與 WordPress 互動的方式，也是你如何讓其他開發人員與你的外掛程式互動的方式。
-* [隱私權](https://developer.wordpress.org/plugins/privacy/)將幫助你了解如何處理敏感資料。
-* 要了解有關可在外掛中使用的 WordPress 內建功能的更多信息，請查看[管理選單](https://developer.wordpress.org/plugin/administration-menus/)、[短代碼](https://developer.wordpress.org/plugin/shortcodes/)、[設定](https://developer.wordpress.org/plugin/settings/)、[後設資料](https://developer.wordpress.org/plugin/metadata/)、[自訂文章類型](https://developer.wordpress.org/plugins/post-types/)、[分類](https://developer.wordpress.org/plugins/taxonomies/)和[使用者](https://developer.wordpress.org/plugin/users/)。
-* 了解如何使用 [HTTP API](https://developer.wordpress.org/plugin/http-api/) 取得資料。
-* 如果你在外掛程式中使用 [JavaScript、jQuery 或 Ajax](https://developer.wordpress.org/plugin/javascript/)，你將在該部分找到所需的資訊。
-* 若要了解 WordPress 任務排程，請查看 [Cron](https://developer.wordpress.org/plugin/cron/) 這個章節。
-* [國際化](https://developer.wordpress.org/plugin/internationalization/)是指如何讓你的外掛程式準備好在你所在地區以外的地區使用。
-* 完成所有操作後，你可以將你的外掛放到[外掛目錄](https://developer.wordpress.org/plugin/wordpress-org/)中
-* 最後：一些你可能會覺得有用的[開發者工具](https://developer.wordpress.org/plugin/developer-tools/)。
+* 如果你是外掛程式開發新手，請先閱讀〈[外掛開發簡介](https://developer.wordpress.org/plugins/intro/)〉，然後進一步了解〈[外掛開發基礎知識](https://developer.wordpress.org/plugins/plugin-basics/)〉。
+* 〈[外掛安全性](https://developer.wordpress.org/plugins/security/)〉中將介紹安全性最佳作法的有關內容。
+* 〈[勾點](https://developer.wordpress.org/plugins/hooks/)〉是讓外掛與 WordPress 互動、以及其他開發者的外掛與你的外掛之間互動的方式。
+* 〈[隱私權](https://developer.wordpress.org/plugins/privacy/)〉將幫助你了解如何處理敏感資料。
+* 想要進一步了解在外掛中可使用的 WordPress 內建功能，請閱讀〈[管理選單](https://developer.wordpress.org/plugins/administration-menus/)〉、[短代碼](https://developer.wordpress.org/plugins/shortcodes/)、〈[設定](https://developer.wordpress.org/plugins/settings/)〉、〈[中繼資料](https://developer.wordpress.org/plugins/metadata/)〉、〈[自訂內容類型](https://developer.wordpress.org/plugins/post-types/)〉、〈[分類法](https://developer.wordpress.org/plugins/taxonomies/)〉和〈[使用者](https://developer.wordpress.org/plugins/users/)〉。
+* 了解如何使用 [HTTP API](https://developer.wordpress.org/plugins/http-api/) 取得資料。
+* 如果外掛使用了 [JavaScript、jQuery 或 Ajax](https://developer.wordpress.org/plugins/javascript/)，可以在這了解詳細資訊。
+* 若要了解 WordPress 任務排程，請查看 〈[Cron](https://developer.wordpress.org/plugins/cron/)〉這個章節。
+* 〈[國際化](https://developer.wordpress.org/plugins/internationalization/)〉是將外掛準備好，供其他地區語言使用的步驟。
+* 完成所有操作後，可以將外掛上傳到[外掛目錄](https://developer.wordpress.org/plugins/wordpress-org/)中
+* 最後：在此附上一些實用的[開發者工具](https://developer.wordpress.org/plugins/developer-tools/)。
 
-WordPress 外掛開發人員手冊由 WordPress 社群為 WordPress 社群創作。我們一直在尋找更多的貢獻者；如果你有興趣，請訪問[文件團隊](https://make.wordpress.org/docs)部落格，以了解有關參與的更多資訊。
+《WordPress 外掛開發人員手冊》由 WordPress 社群為 WordPress 社群製作。我們持續尋找更多的參與者，因此如果你有興趣，請前往[文件團隊部落格](https://make.wordpress.org/docs)，了解有關參與的詳細資訊。
